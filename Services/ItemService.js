@@ -1,5 +1,5 @@
 export async function getItems(){
-    const request = await fetch(`/api/items`);
+    const request = await fetch(`https://vercel.com/api/items`);
     const items = await request.json();
 
     return items;
