@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import ShoppingCar from './ShoppingCar';
 
-import ImgLogo from './../public/logo-better-safe.png';
+import ImgLogo from '../public/logo-better-safe.png';
 
 
 import style from '../styles/Navbar.module.css';

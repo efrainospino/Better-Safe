@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ImgLogo from './../public/logo-better-safe.png'
+import ImgLogo from '../public/logo-better-safe.png'
 
 import style from '../styles/Footer.module.css';
 
