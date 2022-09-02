@@ -7,6 +7,8 @@ import Footer from '../components/Footer'
 import CardProduct from '../components/CardProduct';
 import { latesItems } from '../Services/ItemService';
 
+import imgcover from '../public/img/imgcover.jpg';
+
 import style from '../styles/Home.module.css';
 
 export default function Home({items}) {
@@ -25,7 +27,7 @@ export default function Home({items}) {
       </video>
       <Container className={`${style.container} mx-auto px-0`}>
         <div className={`${style.ImageContainer}`}>
-          <Image alt='feminism' className={`${style.image}`} src={'/../public/img/imgcover.jpg'} layout="fill" priority/> 
+          <Image alt='feminism' className={`${style.image}`} src={imgcover} layout="fill" priority/> 
           <div className={`${style.textcover} text-white mx-auto`}>
             <h1 className="fs-1 fw-bold">
               Sientete segura
