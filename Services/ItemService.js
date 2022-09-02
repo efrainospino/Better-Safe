@@ -1,5 +1,5 @@
 export async function getItems(){
-    const request = await fetch(`http://localhost:4001/productos`);
+    const request = await fetch(`https://better-safe.herokuapp.com/productos`);
     const items = await request.json();
 
     return items;
