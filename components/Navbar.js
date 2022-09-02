@@ -6,8 +6,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import ShoppingCar from './ShoppingCar';
 
-import imglogo from '../public/logo-better-safe.png';
-
 
 import style from '../styles/Navbar.module.css';
 
@@ -31,7 +29,7 @@ export default function Navbarr({children, title}){
                 <Container className={`ps-0 ${style.navbarMargin}`}>
                     <div className={`${style.navIcons}`}>
                         <Navbar.Brand className="py-0">
-                            <Image src={imglogo} height={38} alt="better safe" width={35}/>
+                            <Image src={'../public/logo-better-safe.png'} height={38} alt="better safe" width={35}/>
                         </Navbar.Brand>
                         <div className="d-flex ms-auto">
                             <Nav className={`${style.navIcon} me-3`}>
