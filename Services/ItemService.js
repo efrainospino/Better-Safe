@@ -1,5 +1,5 @@
 export async function getItems(){
-    const request = await fetch(`https://my-bassist-chris.mybassistchris.now.sh/api/items`);
+    const request = await fetch(`http://localhost:4001/productos`);
     const items = await request.json();
 
     return items;
