@@ -26,7 +26,7 @@ export default function Navbarr({children, title}){
                 <title>Better Safe {title ? `| ${title}` : ''}</title>
                 <meta name="better safe" content="Productos de defensa personal" />
             </Head>
-            <Navbar className={`pt-1 pb-0 d-flex justify-content-center shadow-sm ${style.background}`} expand="lg">
+            <Navbar className={`pt-1 pb-0 sticky-top d-flex justify-content-center shadow-sm ${style.background}`} expand="lg">
                 <Container className={`ps-0 ${style.navbarMargin}`}>
                     <div className={`${style.navIcons}`}>
                         <Navbar.Brand className="py-0">
