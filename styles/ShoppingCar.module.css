@@ -2,7 +2,7 @@
     width: 15% !important;
     height: 100vh !important;
     position: fixed;
-    z-index: 100;
+    z-index: 10000;
     right: 0;
     top: 0;
     background-color: #FCEDFF;
